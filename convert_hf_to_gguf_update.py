@@ -99,6 +99,9 @@ models = [
     {'name': "gpt3-finnish",   "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/TurkuNLP/gpt3-finnish-small", },
     {"name": "exaone",         "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct", },
     {"name": "phi-2",          "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/microsoft/phi-2", },
+    {"name": "Conan-embedding-v1",          "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/TencentBAC/Conan-embedding-v1", },
+    {"name": "xiaobu-embedding-v2",         "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/lier007/xiaobu-embedding-v2", },
+    {"name": "zpoint_large_embedding_zh",   "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/iampanda/zpoint_large_embedding_zh", },
 ]
 
 
